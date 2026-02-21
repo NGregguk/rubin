@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en" data-site-root=".">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Rubin Discoveries (Unofficial) | Sample Static Website</title>
+    <meta name="description" content="A premium static website scaffold for browsing sample Rubin Observatory discovery entries.">
+    <script>
+      (function () {
+        try {
+          var theme = localStorage.getItem("rubin-theme");
+          if (theme === "dark" || theme === "light") {
+            document.documentElement.setAttribute("data-theme", theme);
+          }
+        } catch (error) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="assets/css/theme.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="wordmark" href="index.html">Rubin Discoveries <span>(Unofficial)</span></a>
+        <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="site-nav">Menu</button>
+        <nav id="site-nav" class="site-nav" aria-label="Primary">
+          <ul>
+            <li><a href="index.html" aria-current="page">Home</a></li>
+            <li><a href="discoveries/index.html">Discoveries</a></li>
+            <li><a href="learn/index.html">Learn</a></li>
+            <li><a href="search/index.html">Search</a></li>
+            <li><a href="about/index.html">About</a></li>
+          </ul>
+        </nav>
+        <button class="theme-toggle" type="button" data-theme-toggle>Theme: Auto</button>
+      </div>
+    </header>
+
+    <main id="main-content" class="container flow">
+      <section class="hero flow">
+        <p class="eyebrow">Rubin Observatory sample website scaffold</p>
+        <h1>Quiet grandeur for time-domain discovery storytelling</h1>
+        <p class="lede">This website is a static educational scaffold with placeholder content only. It does not claim real Rubin Observatory discovery announcements.</p>
+        <p><a class="button" href="discoveries/index.html">Browse sample discoveries</a></p>
+      </section>
+
+      <section class="content-grid content-grid--article">
+        <div class="flow">
+          <h2>Featured sample entries</h2>
+          <div class="card-grid">
+            <article class="discovery-card">
+              <span class="badge">Supernova</span>
+              <h3><a href="discoveries/first-light-supernova-2026/index.html">First Light: Candidate Supernova</a></h3>
+              <p class="discovery-card__meta">Observed: 18 Jan 2026</p>
+              <p>Sample entry (placeholder): early transient brightening tracked over short cadence windows.</p>
+              <p><strong>Why it matters:</strong> Early points shape model constraints and follow-up strategy.</p>
+            </article>
+            <article class="discovery-card">
+              <span class="badge">Near-Earth Object</span>
+              <h3><a href="discoveries/near-earth-object-2026-02-21/index.html">Near-Earth Object Tracklet 2026-02-21</a></h3>
+              <p class="discovery-card__meta">Observed: 21 Feb 2026</p>
+              <p>Sample entry (placeholder): linked detections flagged for rapid orbit refinement.</p>
+              <p><strong>Why it matters:</strong> Fast triage supports timely planetary defence follow-up.</p>
+            </article>
+          </div>
+        </div>
+
+        <aside class="stack">
+          <figure class="media-frame">
+            <img src="assets/img/placeholder-hero.svg" alt="Placeholder observatory sky visual" width="1600" height="900">
+            <figcaption>Sample media frame with fixed aspect ratio to avoid layout shift.</figcaption>
+          </figure>
+          <div class="callout">
+            <h3>What you are seeing</h3>
+            <p>This scaffold demonstrates progressive enhancement: useful browsing without JavaScript, with optional filtering and search when scripts are available.</p>
+          </div>
+        </aside>
+      </section>
+
+      <section class="surface panel flow">
+        <h2>Explore the site</h2>
+        <div class="cluster">
+          <a class="button" href="discoveries/index.html">Discoveries catalogue</a>
+          <a class="button" href="learn/index.html">Learning guides</a>
+          <a class="button" href="search/index.html">Search entries</a>
+          <a class="button" href="about/index.html">About this project</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>This site is an independent educational project. Data links credit Rubin Observatory and partners.</p>
+        <p>Content is sample-only placeholder material for front-end scaffolding.</p>
+      </div>
+    </footer>
+
+    <script type="module" src="assets/js/motion-gate.js"></script>
+    <script type="module" src="assets/js/theme-toggle.js"></script>
+    <script type="module" src="assets/js/enhance-nav.js"></script>
+  </body>
+</html>

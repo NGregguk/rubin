@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en" data-site-root="..">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>About | Rubin Discoveries (Unofficial)</title>
+    <meta name="description" content="About this independent educational static website scaffold.">
+    <script>
+      (function () {
+        try {
+          var theme = localStorage.getItem("rubin-theme");
+          if (theme === "dark" || theme === "light") {
+            document.documentElement.setAttribute("data-theme", theme);
+          }
+        } catch (error) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="../assets/css/theme.css">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/layout.css">
+    <link rel="stylesheet" href="../assets/css/components.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="wordmark" href="../index.html">Rubin Discoveries <span>(Unofficial)</span></a>
+        <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="site-nav">Menu</button>
+        <nav id="site-nav" class="site-nav" aria-label="Primary">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../discoveries/index.html">Discoveries</a></li>
+            <li><a href="../learn/index.html">Learn</a></li>
+            <li><a href="../search/index.html">Search</a></li>
+            <li><a href="index.html" aria-current="page">About</a></li>
+          </ul>
+        </nav>
+        <button class="theme-toggle" type="button" data-theme-toggle>Theme: Auto</button>
+      </div>
+    </header>
+
+    <main id="main-content" class="container flow">
+      <section class="hero flow">
+        <p class="eyebrow">About this project</p>
+        <h1>Static-first educational scaffold</h1>
+        <p class="lede">This site demonstrates a premium yet practical baseline for publishing discovery stories on simple static hosting.</p>
+      </section>
+
+      <section class="content-grid content-grid--article">
+        <div class="flow">
+          <h2>Scope</h2>
+          <p>All discovery entries in this scaffold are placeholders. They exist to show information architecture, accessible components, and progressive enhancement patterns.</p>
+          <p>No framework, no back-end, and no build step are required to browse the site.</p>
+
+          <h2>Design principles</h2>
+          <ul>
+            <li>Readable without JavaScript.</li>
+            <li>Enhanced with small, modular scripts when available.</li>
+            <li>Stable layout with intrinsic media sizing and minimal visual shift.</li>
+            <li>Accessible keyboard navigation, visible focus indicators, and clear structure.</li>
+          </ul>
+        </div>
+
+        <aside class="stack">
+          <section class="surface panel">
+            <h2>Attribution</h2>
+            <ul class="source-list">
+              <li><a href="https://rubinobservatory.org/" target="_blank" rel="noreferrer noopener">Rubin Observatory</a></li>
+              <li><a href="https://www.lsst.org/" target="_blank" rel="noreferrer noopener">LSST</a></li>
+            </ul>
+          </section>
+          <section class="callout">
+            <h2>Important note</h2>
+            <p>Replace placeholder copy, imagery, and facts with reviewed scientific content before any public launch.</p>
+          </section>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>This site is an independent educational project. Data links credit Rubin Observatory and partners.</p>
+      </div>
+    </footer>
+
+    <script type="module" src="../assets/js/motion-gate.js"></script>
+    <script type="module" src="../assets/js/theme-toggle.js"></script>
+    <script type="module" src="../assets/js/enhance-nav.js"></script>
+  </body>
+</html>

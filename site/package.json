@@ -1,0 +1,9 @@
+{
+  "name": "rubin-discoveries-static-site",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Static website scaffold for Rubin discovery storytelling",
+  "scripts": {
+    "serve": "node dev-server.js"
+  }
+}

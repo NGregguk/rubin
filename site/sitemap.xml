@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://rubin-discoveries.example/index.html</loc>
+  </url>
+  <url>
+    <loc>https://rubin-discoveries.example/discoveries/index.html</loc>
+  </url>
+  <url>
+    <loc>https://rubin-discoveries.example/discoveries/first-light-supernova-2026/index.html</loc>
+  </url>
+  <url>
+    <loc>https://rubin-discoveries.example/discoveries/near-earth-object-2026-02-21/index.html</loc>
+  </url>
+  <url>
+    <loc>https://rubin-discoveries.example/learn/index.html</loc>
+  </url>
+  <url>
+    <loc>https://rubin-discoveries.example/learn/what-is-a-light-curve/index.html</loc>
+  </url>
+  <url>
+    <loc>https://rubin-discoveries.example/about/index.html</loc>
+  </url>
+  <url>
+    <loc>https://rubin-discoveries.example/search/index.html</loc>
+  </url>
+</urlset>

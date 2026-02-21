@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en" data-site-root="..">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Discoveries | Rubin Discoveries (Unofficial)</title>
+    <meta name="description" content="Browse sample placeholder discovery entries by category, with optional client-side filtering.">
+    <script>
+      (function () {
+        try {
+          var theme = localStorage.getItem("rubin-theme");
+          if (theme === "dark" || theme === "light") {
+            document.documentElement.setAttribute("data-theme", theme);
+          }
+        } catch (error) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="../assets/css/theme.css">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/layout.css">
+    <link rel="stylesheet" href="../assets/css/components.css">
+  </head>
+  <body data-discoveries-base="./">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="wordmark" href="../index.html">Rubin Discoveries <span>(Unofficial)</span></a>
+        <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="site-nav">Menu</button>
+        <nav id="site-nav" class="site-nav" aria-label="Primary">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="index.html" aria-current="page">Discoveries</a></li>
+            <li><a href="../learn/index.html">Learn</a></li>
+            <li><a href="../search/index.html">Search</a></li>
+            <li><a href="../about/index.html">About</a></li>
+          </ul>
+        </nav>
+        <button class="theme-toggle" type="button" data-theme-toggle>Theme: Auto</button>
+      </div>
+    </header>
+
+    <main id="main-content" class="container flow" data-enhance="discoveries">
+      <section class="hero flow">
+        <p class="eyebrow">Sample catalogue</p>
+        <h1>Discoveries index</h1>
+        <p class="lede">All items here are sample entries (placeholders) for scaffolding. They are not official Rubin discovery statements.</p>
+      </section>
+
+      <section class="surface panel--roomy flow">
+        <h2>Browse by category</h2>
+        <div class="category-links">
+          <a href="#supernovae">Supernovae</a>
+          <a href="#neos">Near-Earth Objects</a>
+          <a href="#variable-stars">Variable stars</a>
+          <a href="#dark-matter-mapping">Dark matter mapping</a>
+        </div>
+      </section>
+
+      <section class="surface panel--roomy flow">
+        <h2>Enhanced filters</h2>
+        <form id="discovery-filters" class="filter-bar" method="get" action="index.html">
+          <label for="filter-type">
+            Type
+            <select id="filter-type" name="type">
+              <option value="all">All types</option>
+              <option value="Supernova">Supernova</option>
+              <option value="Near-Earth Object">Near-Earth Object</option>
+              <option value="Variable Star">Variable star</option>
+              <option value="Dark Matter Mapping">Dark matter mapping</option>
+            </select>
+          </label>
+          <label for="filter-text">
+            Search keywords
+            <input id="filter-text" name="q" type="search" placeholder="Try: transient, lensing, orbit">
+          </label>
+          <label for="filter-sort">
+            Sort
+            <select id="filter-sort" name="sort">
+              <option value="newest">Newest first</option>
+              <option value="oldest">Oldest first</option>
+              <option value="title">Title A-Z</option>
+            </select>
+          </label>
+        </form>
+        <p id="filter-status" class="status-line" aria-live="polite">Enhanced filtering loads when JavaScript is available.</p>
+      </section>
+
+      <section id="discoveries-results" hidden></section>
+
+      <section id="discoveries-baseline" class="flow" aria-label="Baseline category browse">
+        <section id="supernovae" class="flow">
+          <h2>Supernovae</h2>
+          <div class="card-grid">
+            <article class="discovery-card">
+              <span class="badge">Supernova</span>
+              <h3><a href="first-light-supernova-2026/index.html">First Light: Candidate Supernova</a></h3>
+              <p class="discovery-card__meta">Observed: 18 Jan 2026</p>
+              <p>Sample entry (placeholder): rapidly brightening transient flagged at early phase.</p>
+              <p><strong>Why it matters:</strong> Early observations support progenitor and distance-model analysis.</p>
+            </article>
+            <article class="discovery-card">
+              <span class="badge">Supernova</span>
+              <h3><a href="../search/index.html?q=SN-Candidate">Transient SN-Candidate 2026A</a></h3>
+              <p class="discovery-card__meta">Observed: 28 Jan 2026</p>
+              <p>Sample entry (placeholder): listed in the catalogue while detail page is pending.</p>
+              <p><strong>Why it matters:</strong> Broad transient samples improve classifier behaviour.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="neos" class="flow">
+          <h2>Near-Earth Objects</h2>
+          <div class="card-grid">
+            <article class="discovery-card">
+              <span class="badge">Near-Earth Object</span>
+              <h3><a href="near-earth-object-2026-02-21/index.html">Near-Earth Object Tracklet 2026-02-21</a></h3>
+              <p class="discovery-card__meta">Observed: 21 Feb 2026</p>
+              <p>Sample entry (placeholder): fast-motion detections linked across exposures.</p>
+              <p><strong>Why it matters:</strong> Supports rapid follow-up scheduling and orbit confidence.</p>
+            </article>
+            <article class="discovery-card">
+              <span class="badge">Near-Earth Object</span>
+              <h3><a href="../search/index.html?q=Rapid+Mover">Rapid Mover NEO Candidate 26B</a></h3>
+              <p class="discovery-card__meta">Observed: 30 Jan 2026</p>
+              <p>Sample entry (placeholder): catalogue record with detail page pending.</p>
+              <p><strong>Why it matters:</strong> Triage pipelines reduce false positives in alert streams.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="variable-stars" class="flow">
+          <h2>Variable stars</h2>
+          <div class="card-grid">
+            <article class="discovery-card">
+              <span class="badge">Variable Star</span>
+              <h3><a href="../search/index.html?q=Variable+Star+Candidate">Variable Star Candidate Field 19A</a></h3>
+              <p class="discovery-card__meta">Observed: 03 Jan 2026</p>
+              <p>Sample entry (placeholder): periodic signal candidate in dense field photometry.</p>
+              <p><strong>Why it matters:</strong> Adds training data for stellar variability modelling.</p>
+            </article>
+            <article class="discovery-card">
+              <span class="badge">Variable Star</span>
+              <h3><a href="../search/index.html?q=Ensemble+VX">Variable Star Ensemble VX-2026-02</a></h3>
+              <p class="discovery-card__meta">Observed: 02 Feb 2026</p>
+              <p>Sample entry (placeholder): grouped periodic candidates in rolling cadence.</p>
+              <p><strong>Why it matters:</strong> Larger libraries improve classification certainty.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="dark-matter-mapping" class="flow">
+          <h2>Dark matter mapping</h2>
+          <div class="card-grid">
+            <article class="discovery-card">
+              <span class="badge">Dark Matter Mapping</span>
+              <h3><a href="../search/index.html?q=Weak+Lensing+Tile">Weak Lensing Tile WM-11</a></h3>
+              <p class="discovery-card__meta">Observed: 11 Jan 2026</p>
+              <p>Sample entry (placeholder): lensing shear stack indicates potential mass overdensity.</p>
+              <p><strong>Why it matters:</strong> Helps map structure growth independent of luminous matter.</p>
+            </article>
+            <article class="discovery-card">
+              <span class="badge">Dark Matter Mapping</span>
+              <h3><a href="../search/index.html?q=Filament+Candidate">Dark Matter Filament Candidate F-204</a></h3>
+              <p class="discovery-card__meta">Observed: 04 Feb 2026</p>
+              <p>Sample entry (placeholder): coherent shear pattern suggests filamentary structure.</p>
+              <p><strong>Why it matters:</strong> Informs tests of large-scale structure predictions.</p>
+            </article>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>This site is an independent educational project. Data links credit Rubin Observatory and partners.</p>
+        <p id="catalogue-notes">Some catalogue entries intentionally have no dedicated detail page yet in this scaffold.</p>
+      </div>
+    </footer>
+
+    <script type="module" src="../assets/js/motion-gate.js"></script>
+    <script type="module" src="../assets/js/theme-toggle.js"></script>
+    <script type="module" src="../assets/js/enhance-nav.js"></script>
+    <script type="module" src="../assets/js/enhance-filters.js"></script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder variable star chart</title>
+  <desc id="desc">Abstract light-curve style plot used as placeholder media.</desc>
+  <rect width="800" height="450" fill="#131c30"/>
+  <g stroke="#2f476d" stroke-width="2" opacity="0.7">
+    <line x1="70" y1="360" x2="760" y2="360"/>
+    <line x1="70" y1="110" x2="70" y2="360"/>
+  </g>
+  <polyline points="90,290 150,240 210,260 270,180 330,210 390,140 450,170 510,120 570,150 630,110 690,170 740,135" fill="none" stroke="#93b4ff" stroke-width="6"/>
+  <text x="28" y="420" fill="#dae4ff" font-size="26" font-family="Segoe UI, Arial, sans-serif">Sample placeholder: light-curve</text>
+</svg>

@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en" data-site-root="../..">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>First Light: Candidate Supernova | Rubin Discoveries (Unofficial)</title>
+    <meta name="description" content="Sample placeholder discovery detail page for a candidate supernova entry.">
+    <script>
+      (function () {
+        try {
+          var theme = localStorage.getItem("rubin-theme");
+          if (theme === "dark" || theme === "light") {
+            document.documentElement.setAttribute("data-theme", theme);
+          }
+        } catch (error) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="../../assets/css/theme.css">
+    <link rel="stylesheet" href="../../assets/css/base.css">
+    <link rel="stylesheet" href="../../assets/css/layout.css">
+    <link rel="stylesheet" href="../../assets/css/components.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="wordmark" href="../../index.html">Rubin Discoveries <span>(Unofficial)</span></a>
+        <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="site-nav">Menu</button>
+        <nav id="site-nav" class="site-nav" aria-label="Primary">
+          <ul>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../index.html" aria-current="page">Discoveries</a></li>
+            <li><a href="../../learn/index.html">Learn</a></li>
+            <li><a href="../../search/index.html">Search</a></li>
+            <li><a href="../../about/index.html">About</a></li>
+          </ul>
+        </nav>
+        <button class="theme-toggle" type="button" data-theme-toggle>Theme: Auto</button>
+      </div>
+    </header>
+
+    <main id="main-content" class="container flow">
+      <article class="flow">
+        <header class="hero flow">
+          <p class="eyebrow">Discovery detail</p>
+          <span class="badge alert-badge">Sample entry (placeholder)</span>
+          <h1>First Light: Candidate Supernova</h1>
+          <p class="discovery-card__meta">
+            <span class="badge">Supernova</span>
+            <span>Date observed: 18 Jan 2026, 03:42 UTC</span>
+          </p>
+          <p class="lede">A rapidly brightening transient signal, consistent with early-stage supernova behaviour in this sample dataset.</p>
+        </header>
+
+        <figure class="media-frame">
+          <img src="../../assets/img/placeholder-supernova.svg" alt="Placeholder supernova burst visual for sample entry" width="800" height="450">
+          <figcaption>Placeholder visual only. Replace with validated cutout imagery and attribution when real data is used.</figcaption>
+        </figure>
+
+        <div class="content-grid content-grid--article">
+          <div class="flow">
+            <section class="callout">
+              <h2>Why it matters</h2>
+              <p>Early transient detections improve constraints on progenitor models and can sharpen calibration of distance-scale methods.</p>
+            </section>
+
+            <section class="flow">
+              <h2>What you are seeing</h2>
+              <p>This page demonstrates a reusable storytelling format for time-domain events: metadata, media, context, key facts, and source references.</p>
+              <p>The narrative text here is intentionally non-claiming and educational. It is scaffold content for front-end implementation.</p>
+            </section>
+
+            <section class="flow">
+              <h2>Observation notes</h2>
+              <p>Sample cadence points indicate rapid brightness increase over early observations. In a production site, this section would include vetted photometry plots and uncertainty discussion.</p>
+              <p>Follow-up strategy placeholder: trigger spectroscopy where feasible, then refine classification using multi-band light curves.</p>
+            </section>
+          </div>
+
+          <aside class="stack">
+            <section class="surface panel">
+              <h2>Fact grid</h2>
+              <table class="fact-grid">
+                <tbody>
+                  <tr><th scope="row">Band</th><td>r</td></tr>
+                  <tr><th scope="row">Estimated distance</th><td>Placeholder</td></tr>
+                  <tr><th scope="row">Cadence</th><td>Placeholder</td></tr>
+                  <tr><th scope="row">Entry status</th><td>Sample placeholder</td></tr>
+                </tbody>
+              </table>
+            </section>
+
+            <section class="surface panel">
+              <h2>Sources</h2>
+              <ul class="source-list">
+                <li><a href="https://rubinobservatory.org/" target="_blank" rel="noreferrer noopener">Rubin Observatory</a></li>
+                <li><a href="https://www.lsst.org/" target="_blank" rel="noreferrer noopener">Legacy Survey of Space and Time (LSST)</a></li>
+              </ul>
+            </section>
+          </aside>
+        </div>
+      </article>
+
+      <section class="surface panel flow">
+        <h2>Related discoveries</h2>
+        <ul>
+          <li><a href="../../search/index.html?q=SN-Candidate">Transient SN-Candidate 2026A (catalogue entry)</a></li>
+          <li><a href="../../search/index.html?q=SN-Candidate+2026C">Transient SN-Candidate 2026C (catalogue entry)</a></li>
+          <li><a href="../near-earth-object-2026-02-21/index.html">Near-Earth Object Tracklet 2026-02-21</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>This site is an independent educational project. Data links credit Rubin Observatory and partners.</p>
+        <p>All detail-page values on this page are placeholders unless explicitly replaced with verified data.</p>
+      </div>
+    </footer>
+
+    <script type="module" src="../../assets/js/motion-gate.js"></script>
+    <script type="module" src="../../assets/js/theme-toggle.js"></script>
+    <script type="module" src="../../assets/js/enhance-nav.js"></script>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en" data-site-root="..">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Learn | Rubin Discoveries (Unofficial)</title>
+    <meta name="description" content="Learning guides that explain discovery concepts used in this sample Rubin website scaffold.">
+    <script>
+      (function () {
+        try {
+          var theme = localStorage.getItem("rubin-theme");
+          if (theme === "dark" || theme === "light") {
+            document.documentElement.setAttribute("data-theme", theme);
+          }
+        } catch (error) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="../assets/css/theme.css">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/layout.css">
+    <link rel="stylesheet" href="../assets/css/components.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="wordmark" href="../index.html">Rubin Discoveries <span>(Unofficial)</span></a>
+        <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="site-nav">Menu</button>
+        <nav id="site-nav" class="site-nav" aria-label="Primary">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../discoveries/index.html">Discoveries</a></li>
+            <li><a href="index.html" aria-current="page">Learn</a></li>
+            <li><a href="../search/index.html">Search</a></li>
+            <li><a href="../about/index.html">About</a></li>
+          </ul>
+        </nav>
+        <button class="theme-toggle" type="button" data-theme-toggle>Theme: Auto</button>
+      </div>
+    </header>
+
+    <main id="main-content" class="container flow">
+      <section class="hero flow">
+        <p class="eyebrow">Learning centre</p>
+        <h1>Learn how discovery signals are interpreted</h1>
+        <p class="lede">Plain-language explainers for methods referenced in the sample catalogue and detail pages.</p>
+      </section>
+
+      <section class="card-grid">
+        <article class="discovery-card">
+          <span class="badge">Guide</span>
+          <h2><a href="what-is-a-light-curve/index.html">What is a light curve?</a></h2>
+          <p>Understand how brightness over time helps classify transients, variable stars, and follow-up priorities.</p>
+        </article>
+        <article class="discovery-card">
+          <span class="badge">Glossary</span>
+          <h2><a href="../search/index.html?q=lensing">Find terms via search</a></h2>
+          <p>Use the search page to look up catalogue entries that mention lensing, cadence, orbit, and more.</p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>This site is an independent educational project. Data links credit Rubin Observatory and partners.</p>
+      </div>
+    </footer>
+
+    <script type="module" src="../assets/js/motion-gate.js"></script>
+    <script type="module" src="../assets/js/theme-toggle.js"></script>
+    <script type="module" src="../assets/js/enhance-nav.js"></script>
+  </body>
+</html>

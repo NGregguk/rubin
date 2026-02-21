@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder dark matter map</title>
+  <desc id="desc">Contours and points representing a stylised mass distribution map.</desc>
+  <rect width="800" height="450" fill="#111827"/>
+  <g fill="none" stroke="#8ca8ef" opacity="0.8">
+    <ellipse cx="360" cy="220" rx="210" ry="120" stroke-width="5"/>
+    <ellipse cx="420" cy="230" rx="150" ry="85" stroke-width="4"/>
+    <ellipse cx="470" cy="240" rx="95" ry="52" stroke-width="3"/>
+  </g>
+  <g fill="#d1ddff" opacity="0.75">
+    <circle cx="220" cy="170" r="4"/>
+    <circle cx="270" cy="260" r="3"/>
+    <circle cx="365" cy="240" r="4"/>
+    <circle cx="500" cy="250" r="3"/>
+    <circle cx="600" cy="200" r="4"/>
+    <circle cx="665" cy="280" r="3"/>
+  </g>
+  <text x="28" y="420" fill="#dae4ff" font-size="26" font-family="Segoe UI, Arial, sans-serif">Sample placeholder: lensing map</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder supernova image</title>
+  <desc id="desc">Illustrative burst with concentric glow for supernova placeholder content.</desc>
+  <defs>
+    <radialGradient id="burst" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#fff6d6"/>
+      <stop offset="35%" stop-color="#ffcd7d"/>
+      <stop offset="65%" stop-color="#8450a8"/>
+      <stop offset="100%" stop-color="#11172a"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="450" fill="#0f1525"/>
+  <circle cx="400" cy="210" r="180" fill="url(#burst)"/>
+  <line x1="400" y1="30" x2="400" y2="390" stroke="#ffe4a8" stroke-width="4" opacity="0.6"/>
+  <line x1="220" y1="210" x2="580" y2="210" stroke="#ffe4a8" stroke-width="4" opacity="0.6"/>
+  <text x="28" y="420" fill="#dae4ff" font-size="26" font-family="Segoe UI, Arial, sans-serif">Sample placeholder: supernova visual</text>
+</svg>

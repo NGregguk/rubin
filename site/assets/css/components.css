@@ -1,0 +1,214 @@
+.eyebrow {
+  display: inline-block;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+}
+
+.lede {
+  font-size: clamp(1.08rem, 1.8vw, 1.26rem);
+  color: var(--text-muted);
+}
+
+.surface {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-m);
+  box-shadow: var(--shadow);
+}
+
+.panel {
+  padding: 1rem;
+}
+
+.panel--roomy {
+  padding: 1.2rem;
+}
+
+.button,
+button,
+input,
+select {
+  font: inherit;
+}
+
+.button,
+.nav-toggle,
+.theme-toggle {
+  background: var(--surface-raised);
+  color: var(--text);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-s);
+  padding: 0.5rem 0.85rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover,
+.nav-toggle:hover,
+.theme-toggle:hover {
+  border-color: var(--brand);
+}
+
+.theme-toggle {
+  min-width: 9ch;
+}
+
+.badge {
+  display: inline-block;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.22rem 0.55rem;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  background: color-mix(in oklab, var(--surface-raised) 88%, transparent);
+}
+
+.alert-badge {
+  background: color-mix(in oklab, var(--warn) 14%, var(--surface));
+  border-color: color-mix(in oklab, var(--warn) 35%, var(--line));
+  color: var(--text);
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: var(--space-4);
+}
+
+.discovery-card {
+  display: grid;
+  gap: var(--space-2);
+  padding: var(--space-3);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-m);
+  box-shadow: var(--shadow);
+}
+
+.discovery-card__meta {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.discovery-card h3 {
+  margin-bottom: 0;
+}
+
+.media-frame {
+  margin: 0;
+  border-radius: var(--radius-m);
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  aspect-ratio: 16 / 9;
+}
+
+.media-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.media-frame figcaption {
+  padding: var(--space-2);
+  border-top: 1px solid var(--line);
+  color: var(--text-muted);
+  background: var(--surface-raised);
+}
+
+.fact-grid {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.fact-grid th,
+.fact-grid td {
+  padding: 0.7rem;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+}
+
+.fact-grid th {
+  width: 45%;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.source-list {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.callout {
+  border-left: 3px solid var(--brand);
+  border-radius: var(--radius-s);
+  padding: var(--space-3);
+  background: color-mix(in oklab, var(--surface-raised) 80%, transparent);
+}
+
+.filter-bar {
+  display: grid;
+  gap: var(--space-2);
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  align-items: end;
+  padding: var(--space-3);
+}
+
+.filter-bar label {
+  display: grid;
+  gap: 0.3rem;
+  color: var(--text-muted);
+  font-size: 0.92rem;
+}
+
+.filter-bar input,
+.filter-bar select {
+  width: 100%;
+  background: var(--bg-soft);
+  color: var(--text);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-s);
+  padding: 0.55rem 0.65rem;
+}
+
+.category-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.category-links a {
+  text-decoration: none;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.4rem 0.7rem;
+  color: var(--text);
+  background: var(--surface);
+}
+
+.category-links a:hover {
+  border-color: var(--brand);
+}
+
+.status-line {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

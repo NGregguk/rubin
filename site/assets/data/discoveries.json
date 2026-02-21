@@ -1,0 +1,262 @@
+[
+  {
+    "id": "d001",
+    "slug": "first-light-supernova-2026",
+    "title": "First Light: Candidate Supernova",
+    "type": "Supernova",
+    "dateObserved": "2026-01-18T03:42:00Z",
+    "summary": "Sample entry (placeholder): a rapidly brightening transient consistent with an early-stage supernova candidate.",
+    "whyItMatters": "Early detection helps constrain progenitor models and improves distance ladder calibration.",
+    "tags": ["transient", "time-domain", "placeholder"],
+    "hasDetailPage": true,
+    "media": {
+      "thumbnail": "../assets/img/placeholder-supernova.svg",
+      "hero": "../assets/img/placeholder-hero.svg"
+    },
+    "facts": {
+      "Band": "r",
+      "Estimated distance": "Placeholder",
+      "Cadence": "Placeholder"
+    },
+    "sources": [
+      {
+        "label": "Rubin Observatory",
+        "url": "https://rubinobservatory.org/"
+      }
+    ]
+  },
+  {
+    "id": "d002",
+    "slug": "near-earth-object-2026-02-21",
+    "title": "Near-Earth Object Tracklet 2026-02-21",
+    "type": "Near-Earth Object",
+    "dateObserved": "2026-02-21T10:14:00Z",
+    "summary": "Sample entry (placeholder): linked detections indicate a fast-moving object requiring follow-up orbit refinement.",
+    "whyItMatters": "Rapid catalogue triage improves planetary defence response and prioritises telescope time.",
+    "tags": ["asteroid", "planetary-defence", "placeholder"],
+    "hasDetailPage": true,
+    "media": {
+      "thumbnail": "../assets/img/placeholder-neo.svg",
+      "hero": "../assets/img/placeholder-hero.svg"
+    },
+    "facts": {
+      "Band": "g",
+      "Estimated size": "Placeholder",
+      "Follow-up window": "Placeholder"
+    },
+    "sources": [
+      {
+        "label": "Rubin Observatory",
+        "url": "https://rubinobservatory.org/"
+      }
+    ]
+  },
+  {
+    "id": "d003",
+    "slug": "variable-star-candidate-2026-01-03",
+    "title": "Variable Star Candidate Field 19A",
+    "type": "Variable Star",
+    "dateObserved": "2026-01-03T23:10:00Z",
+    "summary": "Sample entry (placeholder): repeated flux changes suggest periodic variability in a crowded stellar field.",
+    "whyItMatters": "Large samples of variable stars support stellar evolution constraints and distance measurements.",
+    "tags": ["stellar-physics", "periodic", "placeholder"],
+    "hasDetailPage": false,
+    "media": {
+      "thumbnail": "../assets/img/placeholder-variable.svg",
+      "hero": "../assets/img/placeholder-hero.svg"
+    },
+    "facts": {
+      "Band": "i",
+      "Period estimate": "Placeholder",
+      "Signal quality": "Placeholder"
+    },
+    "sources": [
+      {
+        "label": "Rubin Observatory",
+        "url": "https://rubinobservatory.org/"
+      }
+    ]
+  },
+  {
+    "id": "d004",
+    "slug": "dark-matter-lensing-tile-2026-01-11",
+    "title": "Weak Lensing Tile WM-11",
+    "type": "Dark Matter Mapping",
+    "dateObserved": "2026-01-11T02:09:00Z",
+    "summary": "Sample entry (placeholder): stacked shear signals reveal a candidate overdensity in a survey tile.",
+    "whyItMatters": "Weak lensing maps help trace mass distribution independent of luminous tracers.",
+    "tags": ["cosmology", "lensing", "placeholder"],
+    "hasDetailPage": false,
+    "media": {
+      "thumbnail": "../assets/img/placeholder-darkmatter.svg",
+      "hero": "../assets/img/placeholder-hero.svg"
+    },
+    "facts": {
+      "Band": "riz",
+      "Tile ID": "WM-11",
+      "Redshift bin": "Placeholder"
+    },
+    "sources": [
+      {
+        "label": "Rubin Observatory",
+        "url": "https://rubinobservatory.org/"
+      }
+    ]
+  },
+  {
+    "id": "d005",
+    "slug": "supernova-candidate-2026-01-28",
+    "title": "Transient SN-Candidate 2026A",
+    "type": "Supernova",
+    "dateObserved": "2026-01-28T06:32:00Z",
+    "summary": "Sample entry (placeholder): photometric rise pattern resembles a Type Ia-like transient in early phase.",
+    "whyItMatters": "Time-domain alerts expand early supernova training sets for classification models.",
+    "tags": ["transient", "classification", "placeholder"],
+    "hasDetailPage": false,
+    "media": {
+      "thumbnail": "../assets/img/placeholder-supernova.svg",
+      "hero": "../assets/img/placeholder-hero.svg"
+    },
+    "facts": {
+      "Band": "g",
+      "Host offset": "Placeholder",
+      "Alert stream": "Placeholder"
+    },
+    "sources": [
+      {
+        "label": "Rubin Observatory",
+        "url": "https://rubinobservatory.org/"
+      }
+    ]
+  },
+  {
+    "id": "d006",
+    "slug": "neo-candidate-2026-01-30",
+    "title": "Rapid Mover NEO Candidate 26B",
+    "type": "Near-Earth Object",
+    "dateObserved": "2026-01-30T14:55:00Z",
+    "summary": "Sample entry (placeholder): short-arc detections point to a possible Apollo-class object.",
+    "whyItMatters": "Fast candidate triage supports timely hand-off to global follow-up networks.",
+    "tags": ["orbital-fit", "alerts", "placeholder"],
+    "hasDetailPage": false,
+    "media": {
+      "thumbnail": "../assets/img/placeholder-neo.svg",
+      "hero": "../assets/img/placeholder-hero.svg"
+    },
+    "facts": {
+      "Band": "r",
+      "Motion rate": "Placeholder",
+      "Priority score": "Placeholder"
+    },
+    "sources": [
+      {
+        "label": "Rubin Observatory",
+        "url": "https://rubinobservatory.org/"
+      }
+    ]
+  },
+  {
+    "id": "d007",
+    "slug": "variable-star-ensemble-2026-02-02",
+    "title": "Variable Star Ensemble VX-2026-02",
+    "type": "Variable Star",
+    "dateObserved": "2026-02-02T19:02:00Z",
+    "summary": "Sample entry (placeholder): group of periodic candidates identified in rolling cadence photometry.",
+    "whyItMatters": "Dense light-curve libraries improve models of stellar interiors and pulsation physics.",
+    "tags": ["light-curve", "ensemble", "placeholder"],
+    "hasDetailPage": false,
+    "media": {
+      "thumbnail": "../assets/img/placeholder-variable.svg",
+      "hero": "../assets/img/placeholder-hero.svg"
+    },
+    "facts": {
+      "Band": "gri",
+      "Candidate count": "Placeholder",
+      "Period confidence": "Placeholder"
+    },
+    "sources": [
+      {
+        "label": "Rubin Observatory",
+        "url": "https://rubinobservatory.org/"
+      }
+    ]
+  },
+  {
+    "id": "d008",
+    "slug": "dark-matter-filament-2026-02-04",
+    "title": "Dark Matter Filament Candidate F-204",
+    "type": "Dark Matter Mapping",
+    "dateObserved": "2026-02-04T01:20:00Z",
+    "summary": "Sample entry (placeholder): coherent shear alignment suggests a candidate filament structure.",
+    "whyItMatters": "Filament-scale mapping helps test large-scale structure predictions.",
+    "tags": ["lensing", "large-scale-structure", "placeholder"],
+    "hasDetailPage": false,
+    "media": {
+      "thumbnail": "../assets/img/placeholder-darkmatter.svg",
+      "hero": "../assets/img/placeholder-hero.svg"
+    },
+    "facts": {
+      "Band": "ri",
+      "Angular span": "Placeholder",
+      "Shear S/N": "Placeholder"
+    },
+    "sources": [
+      {
+        "label": "Rubin Observatory",
+        "url": "https://rubinobservatory.org/"
+      }
+    ]
+  },
+  {
+    "id": "d009",
+    "slug": "supernova-candidate-2026-02-09",
+    "title": "Transient SN-Candidate 2026C",
+    "type": "Supernova",
+    "dateObserved": "2026-02-09T08:18:00Z",
+    "summary": "Sample entry (placeholder): rise profile and colour evolution are consistent with a young transient.",
+    "whyItMatters": "Expanding early transients improves photometric typing and follow-up efficiency.",
+    "tags": ["transient", "follow-up", "placeholder"],
+    "hasDetailPage": false,
+    "media": {
+      "thumbnail": "../assets/img/placeholder-supernova.svg",
+      "hero": "../assets/img/placeholder-hero.svg"
+    },
+    "facts": {
+      "Band": "u",
+      "Rise time": "Placeholder",
+      "Host galaxy": "Placeholder"
+    },
+    "sources": [
+      {
+        "label": "Rubin Observatory",
+        "url": "https://rubinobservatory.org/"
+      }
+    ]
+  },
+  {
+    "id": "d010",
+    "slug": "neo-tracklet-2026-02-12",
+    "title": "Linked Tracklet NEO-2026-12",
+    "type": "Near-Earth Object",
+    "dateObserved": "2026-02-12T12:47:00Z",
+    "summary": "Sample entry (placeholder): overnight linking produced a candidate orbit with moderate uncertainty.",
+    "whyItMatters": "Improved linking cuts false positives and strengthens impact probability forecasting.",
+    "tags": ["tracklet", "orbit", "placeholder"],
+    "hasDetailPage": false,
+    "media": {
+      "thumbnail": "../assets/img/placeholder-neo.svg",
+      "hero": "../assets/img/placeholder-hero.svg"
+    },
+    "facts": {
+      "Band": "r",
+      "Arc length": "Placeholder",
+      "Uncertainty": "Placeholder"
+    },
+    "sources": [
+      {
+        "label": "Rubin Observatory",
+        "url": "https://rubinobservatory.org/"
+      }
+    ]
+  }
+]

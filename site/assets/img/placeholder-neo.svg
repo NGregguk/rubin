@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder near-earth object image</title>
+  <desc id="desc">Stylised asteroid track line used as a placeholder.</desc>
+  <rect width="800" height="450" fill="#11192b"/>
+  <ellipse cx="520" cy="210" rx="165" ry="90" fill="#2f415f"/>
+  <circle cx="540" cy="190" r="46" fill="#4e678f"/>
+  <circle cx="505" cy="226" r="20" fill="#20344f"/>
+  <circle cx="590" cy="230" r="18" fill="#20344f"/>
+  <path d="M60 360 C220 280, 410 310, 760 110" stroke="#f2c486" stroke-width="6" fill="none"/>
+  <text x="28" y="420" fill="#dae4ff" font-size="26" font-family="Segoe UI, Arial, sans-serif">Sample placeholder: near-earth object</text>
+</svg>
